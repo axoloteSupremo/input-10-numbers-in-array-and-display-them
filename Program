@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std; 
+
+int main() {
+    int array[10]; 
+    cout << "Enter 10 numbers: " << endl; 
+    for (int i = 0; i<10; i++){
+        cin>>array[i];
+    }
+    cout << "You entered following numbers\n"; 
+    for(int i = 0; i<10; i++){
+        cout << array[i] << " ";
+        
+    }
+    return 0;
+}
